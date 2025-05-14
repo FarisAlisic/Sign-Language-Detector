@@ -30,10 +30,7 @@ Built with:
 
 ## 🚀 Deployment
 
-This project is deployed using **Vercel**.  
-Every push to `main` automatically redeploys.
-
-To deploy manually:
+Navigate to project folder,to deploy manually:
 
 ```bash
 # Build
@@ -42,17 +39,6 @@ npm run build
 # Preview locally
 npm run preview
 ```
-
-📂 Folder Structure
-
-├── src/
-│   ├── components/
-│   │   └── ImageUpload.tsx  // Main detection logic
-│   ├── assets/              // Icons, logo, etc.
-│   ├── App.tsx              // Entry UI
-├── public/
-│   └── model.json           // Exported TensorFlow.js model
-├── README.md
 
 🧠 Model Training
 
